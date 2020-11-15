@@ -9,3 +9,6 @@ secretMessage.pop();
 
 // ADD THE WORDS 'to' AND 'Program' TO THE ARRAY
 secretMessage.push('to', 'Program');
+
+// CHANGE THE WORD 'easily' TO THE WORD 'right' BY ACCESSING THE INDEX AND REPLACING IT
+secretMessage[7] ='right';
