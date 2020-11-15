@@ -6,3 +6,6 @@ let secretMessage = [
 
 // REMOVE THE LAST STRING FROM THE ARRAY
 secretMessage.pop();
+
+// ADD THE WORDS 'to' AND 'Program' TO THE ARRAY
+secretMessage.push('to', 'Program');
