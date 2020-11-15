@@ -21,3 +21,6 @@ secretMessage.unshift('Programming');
 
 // USE AN ARRAY METHOD TO REMOVE THE STRINGS 'get', 'right', 'the', 'first', 'time', AND REPLACE THE WITH THE SINGLE STRING 'know'
 secretMessage.splice(6, 5, 'know');
+
+// ON ONE LINE, USE console.log AND .join() TO PRINT THE SECRET MESSAGE AS A SENTENCE
+console.log(secretMessage.join(' '));
