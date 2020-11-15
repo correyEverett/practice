@@ -15,3 +15,6 @@ secretMessage[7] ='right';
 
 // USE AN ARRAY METHOD TO REMOVE THE FIRST STRING FROM THE ARRAY
 secretMessage.shift();
+
+// USE AN ARRAY METHOD TO ADD THE STRING 'Programming' TO THE BEGINNING OF THE ARRAY
+secretMessage.unshift('Programming');
