@@ -18,3 +18,6 @@ secretMessage.shift();
 
 // USE AN ARRAY METHOD TO ADD THE STRING 'Programming' TO THE BEGINNING OF THE ARRAY
 secretMessage.unshift('Programming');
+
+// USE AN ARRAY METHOD TO REMOVE THE STRINGS 'get', 'right', 'the', 'first', 'time', AND REPLACE THE WITH THE SINGLE STRING 'know'
+secretMessage.splice(6, 5, 'know');
