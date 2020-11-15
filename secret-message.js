@@ -12,3 +12,6 @@ secretMessage.push('to', 'Program');
 
 // CHANGE THE WORD 'easily' TO THE WORD 'right' BY ACCESSING THE INDEX AND REPLACING IT
 secretMessage[7] ='right';
+
+// USE AN ARRAY METHOD TO REMOVE THE FIRST STRING FROM THE ARRAY
+secretMessage.shift();
